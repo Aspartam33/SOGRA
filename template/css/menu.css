@@ -1,0 +1,116 @@
+*{
+	box-sizing:border-box; margin: 0; padding: 0;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	background: transparent;
+	width: 100%;
+	justify-content:space-between;
+	box-sizing: border-box;
+	
+	
+}
+header .logo{
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+header .logo img{
+	
+	line-height: 100px;
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 0;
+}
+header nav{
+	float: center;
+}
+header nav ul{
+	margin: 0;
+	display: flex;
+	padding: 10px;
+	font-weight: bold;
+	font-style: inherit;
+	font-color:#1f2f50;
+
+
+}
+header nav ul li{
+	list-style:none;
+	position: relative;
+
+}
+header nav ul li.sub-menu:before{
+	content: '\f107';
+	font-family: fontAwesome;
+	position: absolute;
+	line-height: 50px;
+	color: #000;
+	right: 5px;
+}
+header nav ul li.active.sub-menu:before{
+	content: '\f106';
+	font-family: fontAwesome;
+	
+}
+header nav ul li ul{
+	position: absolute;
+	left: 0;
+	background: #4297D3;
+	display: none;
+	z-index: 100;
+}
+
+
+header nav ul li:hover ul{
+	display: block;
+}
+
+header nav ul li ul li{
+	display: block;
+	width: 200px;
+	font-size: 10px;
+	font-weight: lighter;
+}
+header nav ul li a{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+header nav ul li a:hover{
+	color: #dadbda;
+	background:#3b85bb;
+	
+
+}
+
+.menu-toggle{
+	color: #000000;
+	float: right;
+	font-size: 24px;
+	cursor: pointer;
+	line-height: 50px;
+	display: none;
+}

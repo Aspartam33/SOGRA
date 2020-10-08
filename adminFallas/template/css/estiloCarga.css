@@ -1,0 +1,48 @@
+.btn-default{
+	background-color:#29aa74; 
+	display: inline-block;
+}
+#selTrab{
+	background-color: #c2f0f0;
+	color:black;
+}
+#selFalla{
+	background-color: #c2f0f0;
+	color:black;
+}
+.navbar-brand{
+	
+	font-size: 64px;
+}
+.nav{background-color:#006699;
+
+ 
+
+ }
+ .nav h2{font-size: 32px; 
+ }
+ .nav-link{
+ 
+ 	font-size: 16px;
+ 	display: inline-block;
+ 	background-color: #0099cc;
+ 		color:#ff0000;
+ 		margin-left: 10px;
+ }
+ #forma{
+ 	background-color: #99ccff;
+ 	margin-top: 5px;
+ 	display: inline-block;
+ }
+ #tipoFalla{
+ 	color:black;
+ }
+body{
+ 	background-image: url("https://www.telecomunicaciones.gob.ec/wp-content/uploads/2016/02/Antenas-Celulares.png");
+ 	
+    background-position: right top;
+ }
+ 
+#contTabla>tr:ntr-child(even){
+   background-color:white;
+}
